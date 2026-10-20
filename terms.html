@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vio Barbers Studio Terms of Service</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+/* Layout: one narrow reading column, a barber-pole stripe at the top, two policies with anchors (#terms, #privacy) */
+:root{
+  --bg:#f6f5f3; --fg:#18171a; --muted:#5d5a60; --rule:#d9d5d2; --red:#b3202f; --chip:#ebe7e4;
+  --display:"Archivo Narrow","Arial Narrow",Arial,sans-serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#121114;--fg:#ece9e6;--muted:#a7a2a6;--rule:#2d2a2f;--red:#e0485a;--chip:#1e1c21;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121114;--fg:#ece9e6;--muted:#a7a2a6;--rule:#2d2a2f;--red:#e0485a;--chip:#1e1c21;color-scheme:dark}
+html,body{margin:0}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.6}
+.pole{height:10px;background:repeating-linear-gradient(135deg,var(--red) 0 14px,var(--bg) 14px 22px,#2b4fa3 22px 36px,var(--bg) 36px 44px)}
+.wrap{max-width:68ch;margin:0 auto;padding-block:40px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header{display:grid;gap:6px;margin-bottom:28px}
+.eyebrow{font-family:var(--display);letter-spacing:.14em;text-transform:uppercase;font-size:13px;color:var(--red);font-weight:700}
+h1{font-family:var(--display);font-size:40px;line-height:1.1;margin:0;text-wrap:balance}
+.meta{color:var(--muted);font-size:15px}
+nav{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+nav a{font-family:var(--display);font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:14px;color:var(--fg);background:var(--chip);padding:6px 12px;border-radius:4px;text-decoration:none}
+nav a:focus-visible,a:focus-visible{outline:2px solid var(--red);outline-offset:2px}
+section{border-top:1px solid var(--rule);padding-top:22px;margin-top:30px}
+h2{font-family:var(--display);font-size:28px;margin:0 0 8px}
+h3{font-family:var(--display);font-size:19px;letter-spacing:.02em;margin:22px 0 4px}
+p,li{margin:0 0 10px}
+ul{padding-left:22px;margin:0 0 10px}
+a{color:var(--red)}
+</style>
+</head>
+<body>
+
+<div class="pole" aria-hidden="true"></div>
+<div class="wrap">
+  <header>
+    <span class="eyebrow">Vio Barbers · TikTok @vio.barbers</span>
+    <h1>Vio Barbers Studio: Terms of Service and Privacy Policy</h1>
+    <span class="meta">Last updated 20 October 2026</span>
+    <nav><a href="#terms">Terms of Service</a><a href="#privacy">Privacy Policy</a></nav>
+  </header>
+
+  <p>Vio Barbers Studio is a small in-house tool used by the Vio Barbers barber shop (UK). It runs on the shop's own computer and posts the shop's own haircut videos, with their captions, to the shop's TikTok account <strong>@vio.barbers</strong>. It is not offered to the public and has no other users.</p>
+
+  <section id="terms">
+    <h2>Terms of Service</h2>
+    <h3>Who may use it</h3>
+    <p>Only the owner of Vio Barbers and staff he authorises may use Vio Barbers Studio, and only with TikTok accounts that belong to the shop or that the account owner has connected himself.</p>
+    <h3>What it does</h3>
+    <p>After the account owner signs in with TikTok and grants permission, the tool uploads videos made by the shop and their captions to that account. Every post is chosen and approved by the account owner.</p>
+    <h3>Content</h3>
+    <p>All videos show work done at Vio Barbers. The shop is responsible for having the right to publish them, including the consent of anyone who appears in them, and for following TikTok's Community Guidelines and Terms of Service.</p>
+    <h3>Disconnecting</h3>
+    <p>The account owner can remove the tool's access at any time in the TikTok app, under Settings and privacy, Security and permissions, Manage app permissions.</p>
+    <h3>No warranty</h3>
+    <p>The tool is provided as is, for the shop's own use. Vio Barbers is not responsible for outages or changes of the TikTok platform.</p>
+  </section>
+
+  <section id="privacy">
+    <h2>Privacy Policy</h2>
+    <h3>Data we receive from TikTok</h3>
+    <ul>
+      <li>Basic profile information of the connected account (display name, avatar, account ID), used to show which account is connected.</li>
+      <li>An access token that lets the tool upload videos to that account.</li>
+    </ul>
+    <h3>How it is used and stored</h3>
+    <p>The data is used only to publish the shop's own videos. The token is stored on the shop's computer in the operating system's secure keychain. Nothing is sold, shared with third parties or used for advertising.</p>
+    <h3>Other people's data</h3>
+    <p>The tool does not collect data about TikTok viewers, followers or customers.</p>
+    <h3>Retention and deletion</h3>
+    <p>Data is kept only while the account is connected. Disconnecting the app in TikTok, or asking us, deletes the stored token and profile details.</p>
+    <h3>Contact</h3>
+    <p>Vio Barbers, UK. Message us on TikTok <strong>@vio.barbers</strong> or through our booking page <a href="https://viobarbers15.booksy.com/a/" target="_blank" rel="noopener">viobarbers15.booksy.com</a>.</p>
+  </section>
+</div>
+
+<script>location.hash="terms"</script>
+</body>
+</html>
